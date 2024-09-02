@@ -167,7 +167,7 @@ function showScore(){
     resetState();
     let message=`You Scored ${score} out of ${questions.length} !`;
     const percentage=(score/questions.length)*100;
-    if(percentage>=80){
+    if(percentage>=70){
         message+="Amazing! Your cricket knowledge is top-notch!";
     }
     else if (percentage<40){
